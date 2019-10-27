@@ -2,6 +2,8 @@ body {
   width: 100%;
   height: 900px;
   background-color: white;
+  position: relative;
+  margin: 0;
 }
 
 body header {
@@ -39,11 +41,49 @@ body header .header__menu {
   margin-top: 10px;
 }
 
+body .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .flex__left {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+}
+
+body .flex__right {
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+  margin-top: 70px;
+}
+
+body .flex__button {
+  -ms-flex-preferred-size: 10%;
+      flex-basis: 10%;
+  margin-top: 70px;
+  width: 100px;
+}
+
+body .flex__button .one-img {
+  width: 100px;
+}
+
+body .flex__button .two-img {
+  width: 100px;
+}
+
+body .flex__button .three-img {
+  width: 100px;
+}
+
 body .block1 {
   width: 228px;
   height: 246px;
   border: 1px solid #585757;
-  margin-top: 50px;
+  margin-top: 70px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
 }
 
 body .block1 .buttom {
@@ -72,6 +112,8 @@ body .block2 {
   height: 246px;
   border: 1px solid #585757;
   margin-top: 100px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
 }
 
 body .block2 .buttom {
